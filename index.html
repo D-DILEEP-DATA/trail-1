@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ironworks Gym | Train hard. Get stronger.</title>
+  <meta name="description" content="Ironworks Gym: free weights, group classes and coaching for every level.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top">Ironworks</a>
+    <nav>
+      <a href="#classes">Classes</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Join</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <h1>Lift heavier than last week.</h1>
+      <p>A no-frills gym with real equipment, real coaches and 5&nbsp;am opening hours.</p>
+      <a class="btn" href="#contact">Book a free day pass</a>
+    </section>
+
+    <section id="classes" class="section">
+      <h2>Classes</h2>
+      <div class="grid">
+        <article>
+          <h3>Strength Foundations</h3>
+          <p>Learn squat, bench, deadlift and press with a coach watching your form.</p>
+          <span>Mon, Wed 6:00 pm</span>
+        </article>
+        <article>
+          <h3>Conditioning Circuit</h3>
+          <p>45 minutes of kettlebells, sleds and rowers. Scaled to your level.</p>
+          <span>Tue, Thu 7:00 am</span>
+        </article>
+        <article>
+          <h3>Mobility and Recovery</h3>
+          <p>Stretching and foam rolling to keep you training without injury.</p>
+          <span>Sat 10:00 am</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="pricing" class="section alt">
+      <h2>Pricing</h2>
+      <div class="grid">
+        <article>
+          <h3>Day pass</h3>
+          <p class="price">$10</p>
+          <p>One visit, all equipment.</p>
+        </article>
+        <article class="featured">
+          <h3>Monthly</h3>
+          <p class="price">$35</p>
+          <p>Unlimited gym access and all classes.</p>
+        </article>
+        <article>
+          <h3>Yearly</h3>
+          <p class="price">$330</p>
+          <p>Two months free, plus one coaching session.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Join today</h2>
+      <p>Leave your details and we will call you to set up a free day pass.</p>
+      <form id="join-form">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <button class="btn" type="submit">Request day pass</button>
+        <p id="form-msg" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Ironworks Gym · 12 Main Street · Open 5 am to 10 pm daily</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
